@@ -11,6 +11,8 @@ public class ModItems {
 
     public static final DeferredItem<Item> BUTTER = ITEMS.register("butter",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BATTERY = ITEMS.register("battery",
+            () -> new Item(new Item.Properties()));
 
 
 
