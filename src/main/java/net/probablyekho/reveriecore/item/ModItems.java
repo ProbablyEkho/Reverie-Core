@@ -1,10 +1,14 @@
 package net.probablyekho.reveriecore.item;
 
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.probablyekho.reveriecore.ReverieCore;
+import net.probablyekho.reveriecore.block.ModBlocks;
+
+import java.util.function.Supplier;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ReverieCore.MODID);

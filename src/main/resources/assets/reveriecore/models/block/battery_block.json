@@ -1,0 +1,9 @@
+{
+  "parent": "block/orientable_with_bottom",
+  "textures": {
+    "front": "reveriecore:block/battery_block/side",
+    "bottom": "reveriecore:block/battery_block/bottom",
+    "top": "reveriecore:block/battery_block/top",
+    "side": "reveriecore:block/battery_block/side"
+  }
+}

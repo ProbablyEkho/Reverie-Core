@@ -1,5 +1,7 @@
 {
 	"item.reveriecore.butter": "Butter",
 	"item.reveriecore.battery": "Battery",
-	"item.reveriecore.fish_sticks": "Fish Sticks"
+	"item.reveriecore.fish_sticks": "Fish Sticks",
+
+	"block.reveriecore.battery_block": "Battery Block"
 }

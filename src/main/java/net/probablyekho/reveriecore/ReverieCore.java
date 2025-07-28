@@ -1,5 +1,6 @@
 package net.probablyekho.reveriecore;
 
+import net.probablyekho.reveriecore.block.ModBlocks;
 import net.probablyekho.reveriecore.item.ModFoodComponents;
 import net.probablyekho.reveriecore.item.ModItems;
 import org.slf4j.Logger;
@@ -50,6 +51,7 @@ public class ReverieCore {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -64,12 +66,15 @@ public class ReverieCore {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+            event.accept(ModItems.BUTTER);
+        }
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.BUTTER);
             event.accept(ModItems.FISHSTICKS);
         }
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.BATTERY);
+            event.accept(ModBlocks.BATTERY_BLOCK);
         }
     }
 
