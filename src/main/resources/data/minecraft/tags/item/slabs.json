@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "reveriecore:cobbled_andesite_slab",
+    "reveriecore:cobbled_diorite_slab",
+    "reveriecore:cobbled_granite_slab"
+  ]
+}

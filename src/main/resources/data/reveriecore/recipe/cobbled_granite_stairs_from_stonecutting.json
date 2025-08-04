@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "reveriecore:cobbled_granite"
+  },
+  "result": {
+    "count": 1,
+    "id": "reveriecore:cobbled_granite_stairs"
+  }
+}

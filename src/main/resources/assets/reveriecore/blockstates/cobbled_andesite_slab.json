@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "reveriecore:block/cobbled_andesite_slab"
+    },
+    "type=double": {
+      "model": "reveriecore:block/cobbled_andesite"
+    },
+    "type=top": {
+      "model": "reveriecore:block/cobbled_andesite_slab_top"
+    }
+  }
+}

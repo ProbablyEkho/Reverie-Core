@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "reveriecore:cobbled_andesite",
+    "reveriecore:cobbled_diorite",
+    "reveriecore:cobbled_granite",
+    "reveriecore:cobbled_andesite_slab",
+    "reveriecore:cobbled_diorite_slab",
+    "reveriecore:cobbled_granite_slab",
+    "reveriecore:cobbled_andesite_wall",
+    "reveriecore:cobbled_diorite_wall",
+    "reveriecore:cobbled_granite_wall",
+    "reveriecore:cobbled_andesite_stairs",
+    "reveriecore:cobbled_diorite_stairs",
+    "reveriecore:cobbled_granite_stairs"
+  ]
+}

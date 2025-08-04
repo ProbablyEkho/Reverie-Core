@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "reveriecore:block/cobbled_granite_slab"
+    },
+    "type=double": {
+      "model": "reveriecore:block/cobbled_granite"
+    },
+    "type=top": {
+      "model": "reveriecore:block/cobbled_granite_slab_top"
+    }
+  }
+}

@@ -3,5 +3,19 @@
 	"item.reveriecore.battery": "Battery",
 	"item.reveriecore.fish_sticks": "Fish Sticks",
 
-	"block.reveriecore.battery_block": "Battery Block"
+	"block.reveriecore.cobbled_andesite": "Cobbled Andesite",
+	"block.reveriecore.cobbled_diorite": "Cobbled Diorite",
+	"block.reveriecore.cobbled_granite": "Cobbled Granite",
+
+	"block.reveriecore.cobbled_andesite_slab": "Cobbled Andesite Slab",
+	"block.reveriecore.cobbled_diorite_slab": "Cobbled Diorite Slab",
+	"block.reveriecore.cobbled_granite_slab": "Cobbled Granite Slab",
+
+	"block.reveriecore.cobbled_andesite_wall": "Cobbled Andesite Wall",
+	"block.reveriecore.cobbled_diorite_wall": "Cobbled Diorite Wall",
+	"block.reveriecore.cobbled_granite_wall": "Cobbled Granite Wall",
+
+	"block.reveriecore.cobbled_andesite_stairs": "Cobbled Andesite Stairs",
+	"block.reveriecore.cobbled_diorite_stairs": "Cobbled Diorite Stairs",
+	"block.reveriecore.cobbled_granite_stairs": "Cobbled Granite Stairs"
 }
