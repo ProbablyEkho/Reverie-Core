@@ -15,6 +15,14 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodComponents.BUTTER)));
     public static final DeferredItem<Item> FISHSTICKS = ITEMS.register("fish_sticks",
             () -> new Item(new Item.Properties().food(ModFoodComponents.FISHSTICKS)));
+    public static final DeferredItem<Item> RAW_COPPER_CLUMP = ITEMS.register("raw_copper_clump",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAW_IRON_CLUMP = ITEMS.register("raw_iron_clump",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAW_GOLD_CLUMP = ITEMS.register("raw_gold_clump",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COPPER_NUGGET = ITEMS.register("copper_nugget",
+            () -> new Item(new Item.Properties()));
 
 
 

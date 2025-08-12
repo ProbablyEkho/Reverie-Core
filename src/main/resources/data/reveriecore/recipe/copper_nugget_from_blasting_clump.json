@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 25,
+  "experience": 0.25,
+  "group": "copper_nugget",
+  "ingredient": {
+    "item": "reveriecore:raw_copper_clump"
+  },
+  "result": {
+    "id": "reveriecore:copper_nugget"
+  }
+}

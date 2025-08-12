@@ -2,6 +2,10 @@
 	"item.reveriecore.butter": "Butter",
 	"item.reveriecore.battery": "Battery",
 	"item.reveriecore.fish_sticks": "Fish Sticks",
+	"item.reveriecore.raw_copper_clump": "Raw Copper Clump",
+	"item.reveriecore.raw_iron_clump": "Raw Iron Clump",
+	"item.reveriecore.raw_gold_clump": "Raw Gold Clump",
+	"item.reveriecore.copper_nugget": "Copper Nugget",
 
 	"block.reveriecore.cobbled_andesite": "Cobbled Andesite",
 	"block.reveriecore.cobbled_diorite": "Cobbled Diorite",

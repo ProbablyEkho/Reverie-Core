@@ -52,6 +52,10 @@ public class ReverieCore {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.BATTERY);
+            event.accept(ModItems.RAW_COPPER_CLUMP);
+            event.accept(ModItems.RAW_IRON_CLUMP);
+            event.accept(ModItems.RAW_GOLD_CLUMP);
+            event.accept(ModItems.COPPER_NUGGET);
         }
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.BUTTER);

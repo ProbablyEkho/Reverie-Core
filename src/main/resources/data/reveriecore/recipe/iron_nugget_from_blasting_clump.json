@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 25,
+  "experience": 0.25,
+  "group": "iron_nugget",
+  "ingredient": {
+    "item": "reveriecore:raw_iron_clump"
+  },
+  "result": {
+    "id": "minecraft:iron_nugget"
+  }
+}
