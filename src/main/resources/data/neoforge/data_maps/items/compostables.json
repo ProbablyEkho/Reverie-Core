@@ -1,0 +1,10 @@
+{
+  "values": {
+    "reveriecore:brown_mushroom_cap": {
+      "chance": 0.85
+    },
+    "reveriecore:red_mushroom_cap": {
+      "chance": 0.85
+    }
+  }
+}

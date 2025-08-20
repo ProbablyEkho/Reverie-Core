@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.probablyekho.reveriecore.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "HugeMushroomBlockMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

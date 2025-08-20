@@ -21,5 +21,8 @@
 
 	"block.reveriecore.cobbled_andesite_stairs": "Cobbled Andesite Stairs",
 	"block.reveriecore.cobbled_diorite_stairs": "Cobbled Diorite Stairs",
-	"block.reveriecore.cobbled_granite_stairs": "Cobbled Granite Stairs"
+	"block.reveriecore.cobbled_granite_stairs": "Cobbled Granite Stairs",
+
+	"block.reveriecore.red_mushroom_cap": "Red Mushroom Cap",
+	"block.reveriecore.brown_mushroom_cap": "Brown Mushroom Cap"
 }

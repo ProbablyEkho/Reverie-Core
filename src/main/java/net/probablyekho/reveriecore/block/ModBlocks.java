@@ -5,6 +5,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -56,6 +57,25 @@ public class ModBlocks {
     public static final DeferredBlock<Block> COBBLED_GRANITE_STAIRS = registerBlock("cobbled_granite_stairs",
             () -> new StairBlock(ModBlocks.COBBLED_GRANITE.get().defaultBlockState(),BlockBehaviour.Properties.of()
                     .instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(2f, 6f).sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> RED_MUSHROOM_CAP = registerBlock("red_mushroom_cap",
+            () -> new HugeMushroomBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_RED)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(0.2F)
+                    .sound(SoundType.WOOD)
+                    .ignitedByLava()
+            )
+    );
+    public static final DeferredBlock<Block> BROWN_MUSHROOM_CAP = registerBlock("brown_mushroom_cap",
+            () -> new HugeMushroomBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.DIRT)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(0.2F)
+                    .sound(SoundType.WOOD)
+                    .ignitedByLava()
+            )
+    );
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

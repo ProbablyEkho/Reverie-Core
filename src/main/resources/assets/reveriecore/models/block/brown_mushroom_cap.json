@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_single_face",
+  "textures": {
+    "texture": "reveriecore:block/brown_mushroom_cap"
+  }
+}
