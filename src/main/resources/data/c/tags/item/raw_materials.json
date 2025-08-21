@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     "reveriecore:raw_copper_clump",
-    "reveriecore:raw_gold_clump"
-    "reveriecore:raw_iron_clump",
+    "reveriecore:raw_gold_clump",
+    "reveriecore:raw_iron_clump"
   ]
 }

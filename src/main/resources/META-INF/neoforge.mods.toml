@@ -1,0 +1,31 @@
+modLoader="javafml" #mandatory
+loaderVersion="[4,)" #mandatory
+issueTrackerURL = "https://github.com/ProbablyEkho/Reverie-Core/issues"
+license="MIT"
+
+[[mods]] #mandatory
+modId="reveriecore" #mandatory
+version="0.0.1" #mandatory
+displayName="Reverie Core" #mandatory
+authors="probablyekho" #optional
+description='''
+A very basic 1.21.1 Neoforge core mod for my modpack - Reverie.
+'''
+
+[[mixins]]
+config="reveriecore.mixins.json"
+
+[[dependencies.reveriecore]] #optional
+    modId="neoforge" #mandatory
+    type="required" #mandatory
+    versionRange="[21,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+# Here's another dependency
+[[dependencies.reveriecore]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21,)"
+    ordering="NONE"
+    side="BOTH"
