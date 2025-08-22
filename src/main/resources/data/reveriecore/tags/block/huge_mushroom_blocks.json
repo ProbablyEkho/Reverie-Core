@@ -3,6 +3,7 @@
     "minecraft:brown_mushroom_block",
     "minecraft:red_mushroom_block",
     "reveriecore:brown_mushroom_cap",
-    "reveriecore:red_mushroom_cap"
+    "reveriecore:red_mushroom_cap",
+	"minecraft:mushroom_stem"
   ]
 }

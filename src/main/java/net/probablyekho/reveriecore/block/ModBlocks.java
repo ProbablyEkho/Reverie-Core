@@ -4,6 +4,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
@@ -76,6 +77,19 @@ public class ModBlocks {
                     .ignitedByLava()
             )
     );
+    public static final DeferredBlock<Block> MUSHROOM_RING = registerBlock(
+            "mushroom_ring",
+            () -> new TrapDoorBlock(BlockSetType.OAK,BlockBehaviour.Properties.of()
+                            .mapColor(MapColor.WOOL)
+                            .instrument(NoteBlockInstrument.BASS)
+                            .strength(3.0F)
+                            .noOcclusion()
+                            .isValidSpawn(Blocks::never)
+                            .ignitedByLava()
+            )
+    );
+
+
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

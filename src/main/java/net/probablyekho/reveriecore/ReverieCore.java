@@ -50,10 +50,6 @@ public class ReverieCore {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.BROWN_MUSHROOM_CAP);
-            event.accept(ModBlocks.RED_MUSHROOM_CAP);
-        }
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.BATTERY);
             event.accept(ModItems.RAW_COPPER_CLUMP);
@@ -78,6 +74,9 @@ public class ReverieCore {
             event.accept(ModBlocks.COBBLED_ANDESITE_STAIRS);
             event.accept(ModBlocks.COBBLED_DIORITE_STAIRS);
             event.accept(ModBlocks.COBBLED_GRANITE_STAIRS);
+            event.accept(ModBlocks.BROWN_MUSHROOM_CAP);
+            event.accept(ModBlocks.RED_MUSHROOM_CAP);
+            event.accept(ModBlocks.MUSHROOM_RING);
         }
     }
 
