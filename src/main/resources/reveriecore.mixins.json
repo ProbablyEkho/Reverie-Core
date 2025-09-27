@@ -5,7 +5,8 @@
   "compatibilityLevel": "JAVA_21",
   "refmap": "reveriecore.mixins.refmap.json",
   "mixins": [
-    "HugeMushroomBlockMixin"
+    "HugeMushroomBlockMixin",
+    "ShulkerEntityMixin"
   ],
   "client": [],
   "server": [],
