@@ -5,6 +5,9 @@
     },
     "reveriecore:red_mushroom_cap": {
       "chance": 0.85
+    },
+	"reveriecore:marigold": {
+      "chance": 0.65
     }
   }
 }

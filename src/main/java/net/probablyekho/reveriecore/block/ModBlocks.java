@@ -1,5 +1,6 @@
 package net.probablyekho.reveriecore.block;
 
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -7,6 +8,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -86,6 +88,17 @@ public class ModBlocks {
                             .noOcclusion()
                             .isValidSpawn(Blocks::never)
                             .ignitedByLava()
+            )
+    );
+    public static final DeferredBlock<Block> MARIGOLD = registerBlock(
+            "marigold",
+            () -> new FlowerBlock(MobEffects.JUMP, 6.0F, BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.PLANT)
+                    .noCollission()
+                    .instabreak()
+                    .sound(SoundType.GRASS)
+                    .offsetType(BlockBehaviour.OffsetType.XZ)
+                    .pushReaction(PushReaction.DESTROY)
             )
     );
 

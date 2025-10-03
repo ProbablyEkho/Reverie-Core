@@ -9,9 +9,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(Shulker.class)
 public abstract class ShulkerEntityMixin {
     @Inject(
-        method = "teleportSomewhere",
-        at = @At(value = "HEAD"),
-        cancellable = true
+            method = "teleportSomewhere",
+            at = @At(value = "HEAD"),
+            cancellable = true
     )
     private void noShulkerTeleport(CallbackInfoReturnable<Boolean> cir) {
         cir.setReturnValue(false);
